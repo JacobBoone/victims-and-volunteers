@@ -1,4 +1,4 @@
-// VICTIMS
+// // VICTIMS
 
 var victimsMessage = prompt("How many victims do you wish to enter?")
 		var nameArray = []
@@ -14,7 +14,7 @@ var victimsMessage = prompt("How many victims do you wish to enter?")
 
 		
 
-// Volunteers  ----------------------
+// // Volunteers  ----------------------
 
 
 var volMessage = prompt("How many volunteers do you wish to enter?")
@@ -37,10 +37,12 @@ var volMessage = prompt("How many volunteers do you wish to enter?")
 	//  Bonus 1
 
 
-// var volMessage = prompt("How many volunteers do you wish to enter?")
-		
-while (enterAgain = true){
 
+	
+
+var enterAgain = true
+
+while (enterAgain) {
 		var nameVolArray = []
 		var phoneVolArray = []
 		var streetVolArray = []
@@ -50,7 +52,10 @@ while (enterAgain = true){
 			phoneVolArray.push(prompt("Enter Phone Number"))
 			streetVolArray.push(prompt("Enter Street Address"))
 
-			enterAgain = confirm("Would you like to enter another Volunteer ?")
+			enterAgain = confirm("Would you like to enter another Volunteer?")
+			console.log(nameVolArray)
+			console.log(phoneVolArray)
+			console.log(streetVolArray)
 
 }
 
