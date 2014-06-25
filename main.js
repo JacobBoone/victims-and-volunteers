@@ -14,3 +14,20 @@ var victimsMessage = prompt("How many victims do you wish to enter?")
 
 		
 
+// Volunteers  ----------------------
+
+
+var volMessage = prompt("How many volunteers do you wish to enter?")
+		var nameVolArray = []
+		var phoneVolArray = []
+		var streetVolArray = []
+
+	
+	for (var i = 0; i < volMessage; i++) {
+			nameVolArray.push(prompt("Enter Name"))
+			phoneVolArray.push(prompt("Enter Phone Number"))
+			streetVolArray.push(prompt("Enter Street Address"))
+}
+
+
+	alert("Number of victims are " + victimsMessage + ". " +"Number of volunteers are " + volMessage + ". " + "Victim 1 info is " + nameArray[0] + "," + phoneArray[0] + "," + streetArray[0] + ".")
