@@ -31,3 +31,55 @@ var volMessage = prompt("How many volunteers do you wish to enter?")
 
 
 	alert("Number of victims are " + victimsMessage + ". " +"Number of volunteers are " + volMessage + ". " + "Victim 1 info is " + nameArray[0] + "," + phoneArray[0] + "," + streetArray[0] + ".")
+
+
+
+	//  Bonus 1
+
+
+// var volMessage = prompt("How many volunteers do you wish to enter?")
+		
+while (enterAgain = true){
+
+		var nameVolArray = []
+		var phoneVolArray = []
+		var streetVolArray = []
+
+
+			nameVolArray.push(prompt("Enter Name"))
+			phoneVolArray.push(prompt("Enter Phone Number"))
+			streetVolArray.push(prompt("Enter Street Address"))
+
+			enterAgain = confirm("Would you like to enter another Volunteer ?")
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
