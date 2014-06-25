@@ -82,8 +82,8 @@ while (enterAgain) {
 
 //   Bonus 2
 
-		prompt("Please enter a registed Victims name")
-		alert( (streetArray[] = streetVolArray[]) + nameVolArray[])
+		prompt("Please enter a registered Victims name.")
+		alert("Victim street is " + (streetVolArray = streetArray)+ ". " + "Volunteer name on same street is " + nameVolArray + ". ")
 
 
 
