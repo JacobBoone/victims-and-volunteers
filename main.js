@@ -39,6 +39,27 @@ var volMessage = prompt("How many volunteers do you wish to enter?")
 
 
 	
+var enterAnother = true
+
+while (enterAnother) {
+		var nameArray = []
+		var phoneArray = []
+		var streetArray = []
+
+
+			nameArray.push(prompt("Enter Name"))
+			phoneArray.push(prompt("Enter Phone Number"))
+			streetArray.push(prompt("Enter Street Address"))
+
+			enterAnother = confirm("Would you like to enter another Victim?")
+			console.log(nameArray)
+			console.log(phoneArray)
+			console.log(streetArray)
+
+}
+
+
+
 
 var enterAgain = true
 
@@ -59,7 +80,10 @@ while (enterAgain) {
 
 }
 
+//   Bonus 2
 
+		prompt("Please enter a registed Victims name")
+		alert( (streetArray[] = streetVolArray[]) + nameVolArray[])
 
 
 
